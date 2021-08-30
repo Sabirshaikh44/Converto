@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- logo -->
+    <link rel="shortcut icon" type="image/x-icon" href="/imageslogos/WEB logo.png" />
+    <title>CONVERTO</title>
+</head>
+
+<body>
+
+    <!-- nav -->
+    <header>
+        <div class="navbar">
+            <p class="logo">CONVERTO</p>
+            <nav>
+                <div id="links">
+                    <a href="/" class="navtogotolinks">Home</a>
+                </div>
+                <a href="/" onclick="tooglenav()"><i class="fa fa-bars icon"></i></a>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <!-- main -->
+    <main>
+        <div class="container">
+            <h1 class="container-heading">Converto-convert everything your want in a click.</h1>
+            <div class="input-box-container">
+                <h3 class="inputbox-heading">Enter to convert below :</h3>
+                <textarea name="" id="textarea"></textarea>
+                <div class="Showoutput-container">
+                    <h3>Output:</h3>
+                    <input type="text" disabled class="showoutput" id="showouputscreen"
+                        placeholder="Conversion will appear here">
+                </div>
+                <div class="btns">
+                    <button id="MetertoCmBtn">METER TO CM</button>
+                    <button id="CmtoMeterBtn">CM TO METER </button>
+                    <button id="CmtoInchBtn">CM TO INCH </button>
+                    <button id="InchtoCmBtn">INCH TO CM </button>
+                    <button id="KilometerMilesBtn"> KM TO MILES</button>
+                    <button id="MetertoKmBtn"> METER TO KM</button>
+                    <button id="KmtoMeterBtn"> KM TO METER</button>
+                    <button id="MetertoMilesBtn"> METER TO MILES</button>
+                    <button id="MetertoFootBtn"> METER TO FOOT</button>
+                    <button id="FoottoMeterBtn"> FOOT TO METER</button>
+                    <button id="FoottoInchesBtn"> FOOT TO INCH</button>
+                    <button id="InchetoFootsBtn"> INCH TO FOOT </button>
+                    <button id="CelciustoFarenheitBtn"> °C TO FARENHEIT </button>
+                    <button id="FarenheittoCelciusBtn"> FARENHEIT TO °C </button>
+                    <button id="CelciustoKelvinBtn"> °C TO KELVIN </button>
+                    <button id="KelvintoCelciusBtn"> KELVIN TO °C </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+     <h4 class="footer-h4">Created from scratch by Sabir Shaikh.</h4>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
